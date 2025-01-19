@@ -40,3 +40,4 @@ rm ./data/processed/user_logs/*ipaddr*
 find ./data/processed -type f > ./data/inventory.txt
 ###########################################
 echo "Project1 setup is complete!"
+git pull https://github.com/UofT-DSI/shell coworker-changes --no-rebase
